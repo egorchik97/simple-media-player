@@ -38,11 +38,11 @@ Windows GSMTC не предоставляет текст песни напрям
 
 ## Сборка и проверка
 
-Рабочая папка: `D:\vibe code\злеир`.
+Рабочая папка: корень репозитория (папка со скриптом `build.cmd`).
 
 `build.cmd` собирает приложение, MediaProbe и три набора тестов: MediaPopupTests, AsrTests, LyricsTests. Требуется установленный в скрипте Visual Studio 18 Community и Windows SDK. Дополнительные UI-библиотеки не используются; HTTP — WinHTTP, JSON — Windows Runtime.
 
-Для установки Whisper: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File "D:\vibe code\злеир\setup-runtime.ps1"`. Модель и DLL ожидаются в подпапке `runtime` рядом с EXE.
+Для установки Whisper: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\setup-runtime.ps1`. Модель и DLL ожидаются в подпапке `runtime` рядом с EXE.
 
 Диагностический запуск `MediaPopup.exe --no-asr` отключает локальное распознавание в этом запуске. Он не отключает сохранённый режим каталога. MediaProbe и `MediaPopup-PID.log` остаются доступны для диагностики медиасессий.
 

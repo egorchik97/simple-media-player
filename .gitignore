@@ -33,3 +33,26 @@ runtime/models/
 
 # Настройки приложения (создаются в %LOCALAPPDATA%)
 **/settings.ini
+
+# Результаты проверки сборки (verify-build.ps1)
+build-verified.log
+build.exit
+
+# Папки конфигураций MSVC
+Debug/
+Release/
+
+# Переменные окружения и секреты
+.env
+*.env
+
+# Временные файлы скачивания setup-runtime.ps1
+*.part
+
+# Кэши Windows
+Thumbs.db
+desktop.ini
+
+# Результаты smoke-теста Whisper (регенерируются setup-runtime.ps1)
+runtime/smoke/*.txt
+runtime/smoke/*.part
