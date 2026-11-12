@@ -1,0 +1,35 @@
+# Скомпилированные файлы
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+
+# Логи и отчёты сборки
+*.log
+*.exit
+*.pid
+
+# Бэкапы и временные файлы
+*.bak
+*.tmp
+
+# Служебные папки Visual Studio
+.vs/
+.vscode/
+
+# Логи приложения MediaPopup
+MediaPopup-*.log
+
+# Файлы probe
+probe-*.txt
+probe.exit
+
+# Runtime зависимости (загружаются отдельно через setup-runtime.ps1)
+runtime/whisper/
+runtime/models/
+
+# Настройки приложения (создаются в %LOCALAPPDATA%)
+**/settings.ini
