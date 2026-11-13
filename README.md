@@ -1,5 +1,8 @@
 # MediaPopup
 
+![MediaPopup](Промо-коллаж%20MediaPopup%20с%20настройками.png)
+
+
 ### Build
 
 ```powershell
