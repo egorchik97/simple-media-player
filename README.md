@@ -1,5 +1,7 @@
 ﻿# Simple Media Player
 
+![MediaPopup](docs/images/promo-collage.png)
+
 Windows popup for the current media session. It controls playback and the source application's volume, shows LRCLIB or local Whisper lyrics, and draws a small themed card with glass patterns and optional snowfall.
 
 The window is a borderless Win32 layered popup. It does not change the Windows master volume.
