@@ -56,3 +56,18 @@ desktop.ini
 # Результаты smoke-теста Whisper (регенерируются setup-runtime.ps1)
 runtime/smoke/*.txt
 runtime/smoke/*.part
+
+# CMake and local compiler output
+/build*/
+/out/
+/obj/
+/release/
+runtime/downloads/
+runtime/smoke/
+CMakeCache.txt
+CMakeFiles/
+Testing/
+src/audio/tests/out/
+*.err
+# Local test build artifacts
+src/audio/tests/out/
